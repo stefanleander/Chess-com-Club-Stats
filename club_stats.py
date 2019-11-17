@@ -33,7 +33,7 @@ except:
     exit(1)
 
 # Convert JSON to a Python dict
-club_members = json.loads(source)
+club_members = json.loads(source) # Source is not defined
 
 # Initialize empty list for members user names
 members = list()
